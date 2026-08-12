@@ -82,7 +82,7 @@ function JobDetail() {
         <section className="mt-8">
           <h2 className="text-xl font-bold">What we're looking for</h2>
           <ul className="mt-3 space-y-2">
-            {job.requirements.map((r) => (
+            {job.requirements.map((r: string) => (
               <li key={r} className="flex gap-3 text-muted-foreground">
                 <Check className="mt-0.5 h-5 w-5 shrink-0 text-teal" aria-hidden="true" />
                 <span>{r}</span>
@@ -94,7 +94,7 @@ function JobDetail() {
         <section className="mt-8">
           <h2 className="text-xl font-bold">Perks</h2>
           <ul className="mt-3 flex flex-wrap gap-2">
-            {job.perks.map((p) => (
+            {job.perks.map((p: string) => (
               <li
                 key={p}
                 className="rounded-full bg-secondary px-4 py-1.5 text-sm font-medium text-secondary-foreground"

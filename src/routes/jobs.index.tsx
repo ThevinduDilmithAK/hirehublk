@@ -6,7 +6,7 @@ import { jobs, categories, jobTypes } from "@/data/jobs";
 import { JobCard, JobCardSkeleton } from "@/components/JobCard";
 import { RippleButton } from "@/components/RippleButton";
 
-type JobSearch = { q?: string; location?: string; category?: string };
+type JobSearch = { q?: string | undefined; location?: string | undefined; category?: string | undefined };
 
 export const Route = createFileRoute("/jobs/")({
   validateSearch: (search: Record<string, unknown>): JobSearch => ({
