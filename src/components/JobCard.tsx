@@ -21,7 +21,7 @@ export function JobCard({ job, index = 0 }: { job: Job; index?: number }) {
           {job.logo}
         </span>
         <div className="min-w-0 flex-1">
-          <h3 className="truncate text-lg font-bold">
+          <h3 className="line-clamp-2 text-lg font-bold">
             <Link
               to="/jobs/$jobId"
               params={{ jobId: job.id }}
