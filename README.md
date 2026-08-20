@@ -36,11 +36,7 @@ Mobile-first responsive design with an animated hamburger menu.
 
 Quality bar: clean component structure, reusable UI components, accessible (semantic HTML, focus states, ARIA labels), and 60fps animations using transform/opacity only. Deliver polished, production-quality code.
 
-This project was built with [Lovable](https://lovable.dev).
-
 **Live app**: https://hirehublk.lovable.app
-
-## Build with Lovable
 
 Continue developing this project in the [Lovable editor](https://lovable.dev/projects/9d55bfa9-56cb-4dd8-ad83-ed5da5a3b87b).
 
@@ -51,6 +47,10 @@ Continue developing this project in the [Lovable editor](https://lovable.dev/pro
 ## Development
 
 Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+##Disclaimer
+
+This is a sample app for only learning purposes only.ALL the data in this app is created by me.So neglect the numbers..
 
 ```sh
 git clone <this-repository-url>
